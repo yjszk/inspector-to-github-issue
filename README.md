@@ -14,7 +14,7 @@ A[GitHub Actionsでのスケジュール実行] --> Pythonでの処理
 
 subgraph Pythonでの処理
   B[GitHub Artifactから前日分を取得]
-  B --> C[Amazon Inspectorからの新規分と前日分を突合]
+  B --> C[Amazon Inspectorから取得した新規分と前日分を突合]
   C -- 差分あり --> D[Github Issueに脆弱性情報を登録]
   C -- 差分なし --> F[処理を終了]
 end
