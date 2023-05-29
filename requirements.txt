@@ -1,0 +1,4 @@
+boto3==latest
+botocore==latest
+deep-translator==latest
+PyGithub==latest
