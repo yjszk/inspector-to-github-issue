@@ -5,6 +5,10 @@
 - GitHub Actionsで毎日JST10時ごろに実行するように設定している
 - 記録済みの脆弱性はGitHub Artifactに保存している
 
+## 前提
+- Amazon Inspectorの設定が完了していること
+- 対象のGitHubのリポジトリから対象のAWSアカウントへの[認証が完了](https://docs.github.com/ja/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services)していること
+
 ## 絵
 
 ```mermaid
